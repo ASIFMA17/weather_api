@@ -1,0 +1,187 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.card{
+    width: 50%;
+    background: linear-gradient(90deg, rgba(148,58,180,1) 2%, rgba(90,58,180,1) 50%, rgba(166,58,180,1) 100%, rgba(150,73,243,1) 100%) !important;
+    color: #fff;
+    margin: 80px auto;
+    border-radius: 20px;
+    padding: 40px 50px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    outline: 0;
+    border: 0;
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-right: 15px;
+    text-align: center;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+.weather{
+    margin-top: 30px;
+}
+.weather_img{
+    width: 200px;
+}
+.temp{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.city{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 20px; 
+}
+.img-humidity{
+    width: 50Px;
+}
+.humidity{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;  
+}
+.humidity-p{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;  
+}
+.img-wind{
+    width: 50px;
+}
+.wind{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;  
+}
+.wind-p{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;  
+}
+@media(max-width:1000px){
+    .card{
+        width: 70%;
+        background: linear-gradient(90deg, rgba(148,58,180,1) 2%, rgba(90,58,180,1) 50%, rgba(166,58,180,1) 100%, rgba(150,73,243,1) 100%) !important;
+        color: #fff;
+        margin: 70px auto;
+        border-radius: 20px;
+        padding: 30px 30px;
+        text-align: center;
+    } 
+}
+@media(max-width:768px){
+    .card{
+        width: 100%;
+        background: linear-gradient(90deg, rgba(148,58,180,1) 2%, rgba(90,58,180,1) 50%, rgba(166,58,180,1) 100%, rgba(150,73,243,1) 100%) !important;
+        color: #fff;
+        margin: 50px auto;
+        border-radius: 20px;
+        padding: 30px 0px;
+        text-align: center;
+    }
+    .search input{
+        outline: 0;
+        border: 0;
+        background-color: #fff;
+        padding: 10px 10px;
+        border-radius: 20px;
+        font-size: 16px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .search button{
+        border: 0;
+        outline: 0;
+        background-color: #fff;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+    }
+    .weather{
+        margin-top: 20px;
+    }
+    .weather_img{
+        width: 170px;
+    }
+    .temp{
+        font-size: 35px;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+    .city{
+        font-size: 27px;
+        color: #fff;
+        font-weight: 700;
+        padding-bottom: 20px; 
+    }  
+}
+@media(max-width:576px){
+    .card{
+        width: 100%;
+        background: linear-gradient(90deg, rgba(148,58,180,1) 2%, rgba(90,58,180,1) 50%, rgba(166,58,180,1) 100%, rgba(150,73,243,1) 100%) !important;
+        color: #fff;
+        margin: 30px auto;
+        border-radius: 20px;
+        padding: 25px 0px;
+        text-align: center;
+    } 
+    .search input{
+        outline: 0;
+        border: 0;
+        background-color: #fff;
+        padding: 7px 7px;
+        border-radius: 20px;
+        font-size: 16px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .search button{
+        border: 0;
+        outline: 0;
+        background-color: #fff;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+    .weather_img{
+        width: 150px;
+    }
+    .temp{
+        font-size: 32px;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+    }
+    .city{
+        font-size: 24px;
+        color: #fff;
+        font-weight: 700;
+        padding-bottom: 20px; 
+    } 
+}
